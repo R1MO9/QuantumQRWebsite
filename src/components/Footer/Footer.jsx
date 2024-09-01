@@ -1,5 +1,5 @@
 import React from "react";
-import { IoQrCodeOutline } from "react-icons/io5";
+import { FaGooglePlay, FaAppStoreIos } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -8,21 +8,34 @@ const Footer = () => {
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <a href="/" className="flex gap-4 items-center">
-                            <IoQrCodeOutline className="text-green-600 text-4xl" />
-                            <span className="self-center text-2xl font-semibold whitespace-nowrap text-black dark:text-white">QuantumQR</span>
+                            <img src="/mstile-144x144.png" alt="GeoTrackr" className="w-10 h-10" />
+                            <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">GeoTrackr</span>
                         </a>
+
+                        <div>
+                            {/* Download Buttons */}
+                            <div className="flex gap-4 mt-4">
+                                <a href="#" className="flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-green-600 rounded-md hover:bg-green-700">
+                                    <span className="mr-2">
+                                        <FaGooglePlay className="text-2xl" />
+                                    </span>
+                                    Download for Android
+                                </a>
+                                <a href="#" className="flex items-center justify-center px-4 py-2 text-sm font-medium text-green-600 bg-green-100 rounded-md hover:bg-green-200">
+                                    <span className="mr-2">
+                                        <FaAppStoreIos className="text-2xl" />
+                                    </span>
+                                    Download for iOS
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-black dark:text-white">Resources</h2>
                             <ul className="text-green-600 dark:text-green-400 font-medium">
                                 <li className="mb-4">
-                                    <a href="https://vitejs.dev/" className="hover:underline">
-                                        React + Vite
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
+                                    <a href="/docs" className="hover:underline">Docs</a>
                                 </li>
                             </ul>
                         </div>
@@ -52,7 +65,7 @@ const Footer = () => {
                 </div>
                 <hr className="my-6 border-black sm:mx-auto dark:border-white lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm text-black dark:text-white sm:text-center">© 2024 <a href="https://quantum-qr-website.vercel.app/" className="hover:underline">QuantumQR</a>. All Rights Reserved.</span>
+                    <span className="text-sm text-black dark:text-white sm:text-center">© 2024 <a href="https://quantum-qr-website.vercel.app/" className="hover:underline">GeoTrackr</a>. All Rights Reserved.</span>
                     <div className="flex mt-4 sm:justify-center sm:mt-0">
                         <a href="#" className="text-green-600 hover:text-green-400 dark:text-green-400 dark:hover:text-green-600">
                             <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">

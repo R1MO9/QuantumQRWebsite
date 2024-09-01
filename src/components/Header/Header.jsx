@@ -17,6 +17,10 @@ const Header = () => {
         {
             title: 'Contact',
             slug: '#contact'
+        },
+        {
+            title: 'Docs',
+            slug: '/docs'
         }
     ];
     
@@ -30,8 +34,8 @@ const Header = () => {
             <div className='container mx-auto flex justify-between items-center'>
                 <div className='flex items-center p-2 bg-black m-2 rounded-lg'>
                     <a href="/" className="flex gap-4 items-center">
-                        <IoQrCodeOutline className="text-green-600 text-4xl" />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">QuantumQR</span>
+                        <img src="/mstile-144x144.png" alt="GeoTrackr" className="w-10 h-10" />
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">GeoTrackr</span>
                     </a>
                 </div>
                 <nav className='hidden md:block'>
