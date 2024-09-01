@@ -28,7 +28,7 @@ const Header = () => {
     return (
         <header>
             <div className='container mx-auto flex justify-between items-center'>
-                <div className='flex items-center p-2 bg-black m-2'>
+                <div className='flex items-center p-2 bg-black m-2 rounded-lg'>
                     <a href="/" className="flex gap-4 items-center">
                         <IoQrCodeOutline className="text-green-600 text-4xl" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">QuantumQR</span>

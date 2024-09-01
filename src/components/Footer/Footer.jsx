@@ -17,7 +17,9 @@ const Footer = () => {
                             <h2 className="mb-6 text-sm font-semibold text-black dark:text-white">Resources</h2>
                             <ul className="text-green-600 dark:text-green-400 font-medium">
                                 <li className="mb-4">
-                                    <a href="https://flowbite.com/" className="hover:underline">Flowbite</a>
+                                    <a href="https://vitejs.dev/" className="hover:underline">
+                                        React + Vite
+                                    </a>
                                 </li>
                                 <li>
                                     <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
@@ -31,7 +33,7 @@ const Footer = () => {
                                     <a href="https://github.com/prince-63/id-card" className="hover:underline">Github</a>
                                 </li>
                                 <li>
-                                    <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</a>
+                                    <a href="https://twitter.com/prince_63" className="hover:underline">Twitter</a>
                                 </li>
                             </ul>
                         </div>
@@ -50,7 +52,7 @@ const Footer = () => {
                 </div>
                 <hr className="my-6 border-black sm:mx-auto dark:border-white lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm text-black dark:text-white sm:text-center">© 2023 <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+                    <span className="text-sm text-black dark:text-white sm:text-center">© 2024 <a href="https://quantum-qr-website.vercel.app/" className="hover:underline">QuantumQR</a>. All Rights Reserved.</span>
                     <div className="flex mt-4 sm:justify-center sm:mt-0">
                         <a href="#" className="text-green-600 hover:text-green-400 dark:text-green-400 dark:hover:text-green-600">
                             <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">

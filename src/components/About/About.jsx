@@ -40,6 +40,11 @@ const About = () => {
             </p>
           </div>
         </div>
+        <div className="text-center mt-12">
+          <button className="bg-white text-gray-800 font-semibold py-2 px-4 mt-8 rounded-lg shadow-lg hover:bg-gray-200 transition-colors duration-300">
+            Learn More
+          </button>
+        </div>
       </div>
     </section>
   );
