@@ -6,19 +6,19 @@ const Hero = () => {
             heading: "Lessons and Insights",
             subheading: "From 8 years",
             description: "Where to grow your business as a photographer, social media expert, or site owner.",
-            img: "src/assets/Illustration.png",
+            img: "public/Illustration.png",
         },
         {
             heading: "SEO and Social Media",
             subheading: "are your best friends",
             description: "Learn how to use them to your advantage.",
-            img: "src/assets/Illustration2.png",
+            img: "public/Illustration.png",
         },
         {
             heading: "Get Started",
             subheading: "with our course",
             description: "Learn how to grow your business from scratch.",
-            img: "src/assets/Illustration3.png",
+            img: "public/Illustration.png",
         },
     ];
 

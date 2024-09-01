@@ -29,7 +29,7 @@ const Header = () => {
         <header>
             <div className='container mx-auto flex justify-between items-center'>
                 <div className='flex items-center p-4'>
-                    <img className='h-10' src='src/assets/logo.png' alt='logo' />
+                    <img className='h-10' src='public/logo.png' alt='logo' />
                 </div>
                 <nav className='hidden md:block'>
                     <ul className='flex gap-6'>
