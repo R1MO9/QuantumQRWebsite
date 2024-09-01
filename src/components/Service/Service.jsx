@@ -38,17 +38,17 @@ const Service = () => {
 
 const services = [
     {
-        image: 'public/identity.png',
+        image: '/identity.png',
         title: 'Identity Verification',
         description: 'Each user receives a unique QR codeed identity card storing encrypted data including user ID, fingerprint, and office location, offering a compact secure method to manage attendance.',
     },
     {
-        image: 'public/mobile.webp',
+        image: '/mobile.webp',
         title: 'Mobile Application',
         description: 'Our mobile app offers a convenient way for employees to clock in and out, view their attendance history, and receive notifications about their attendance status.',
     },
     {
-        image: 'public/fingerprint.png',
+        image: '/fingerprint.png',
         title: 'Biometric Verification',
         description: 'Our system uses biometric verification to ensure that the person clocking in is the same person assigned to the user ID, preventing buddy punching and other forms of attendance fraud.',
     },
