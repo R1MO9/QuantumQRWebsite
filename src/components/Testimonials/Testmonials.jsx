@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
-import './Testimonials.css'; // Import the CSS file for animation
+import './Testimonials.css';
 
 const testimonials = [
     {
@@ -25,15 +25,15 @@ const testimonials = [
 
 const Testimonials = () => {
     return (
-        <section className="bg-gray-100 py-16">
+        <section className="bg-gray-100 py-20">
             <div className="container mx-auto px-4">
                 <h2 className="text-3xl font-bold text-center mb-10 text-black">What Our Clients Say</h2>
                 <div className="relative overflow-hidden">
-                    <div className="testimonials-container flex space-x-6 animate-scroll">
-                        {testimonials.concat(testimonials).map((testimonial, index) => (
+                    <div className="testimonials-container flex space-x-6">
+                        {[...testimonials, ...testimonials].map((testimonial, index) => (
                             <div 
                                 key={index} 
-                                className="bg-white border border-gray-200 shadow-lg p-6 rounded-lg w-80 md:w-96 transform transition-transform duration-300 hover:scale-105"
+                                className="testimonial-item bg-white border border-gray-200 shadow-lg p-6 rounded-lg w-80 md:w-96 transform transition-transform duration-300 hover:scale-105"
                             >
                                 <div className="flex items-center mb-4">
                                     <div className="flex-1">

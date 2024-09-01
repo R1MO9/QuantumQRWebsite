@@ -6,6 +6,7 @@ import Pricing from './components/Pricing/Pricing'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Testimonials from './components/Testimonials/Testmonials'
+import Service from './components/Service/Service'
 
 const App = () => {
     return (
@@ -17,6 +18,10 @@ const App = () => {
 
             <section>
                 <About />
+            </section>
+
+            <section>
+                <Service />
             </section>
 
             <section>

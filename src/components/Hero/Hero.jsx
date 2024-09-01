@@ -46,7 +46,7 @@ const Hero = () => {
     };
 
     return (
-        <div className="relative flex flex-col md:flex-row items-center justify-between p-6 md:p-12">
+        <div className="relative flex flex-col md:flex-row items-center justify-between p-6 md:p-12 max-w-7xl mx-auto">
             {/* Text Section */}
             <div
                 className={`flex-1 text-center md:text-left mb-8 md:mb-0 transition-all duration-700 ease-in-out transform ${
@@ -69,7 +69,7 @@ const Hero = () => {
 
             {/* Image Section */}
             <div
-                className={`flex-1 flex justify-center transition-all duration-700 ease-in-out transform ${
+                className={`flex-1 flex justify-center transition-all duration-700 ease-in-out w-fit transform ${
                     animating ? 'opacity-0 translate-x-4' : 'opacity-100 translate-x-0'
                 }`}
             >
