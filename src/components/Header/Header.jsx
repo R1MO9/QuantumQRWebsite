@@ -1,5 +1,5 @@
 import React from 'react';
-import { IoMenu, IoClose } from 'react-icons/io5';
+import { IoMenu, IoClose, IoQrCodeOutline } from 'react-icons/io5';
 const Header = () => {
     const navLinks = [
         {
@@ -28,8 +28,11 @@ const Header = () => {
     return (
         <header>
             <div className='container mx-auto flex justify-between items-center'>
-                <div className='flex items-center p-4'>
-                    <img className='h-10' src='public/logo.png' alt='logo' />
+                <div className='flex items-center p-2 bg-black m-2'>
+                    <a href="/" className="flex gap-4 items-center">
+                        <IoQrCodeOutline className="text-green-600 text-4xl" />
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap text-black dark:text-white">QuantumQR</span>
+                    </a>
                 </div>
                 <nav className='hidden md:block'>
                     <ul className='flex gap-6'>

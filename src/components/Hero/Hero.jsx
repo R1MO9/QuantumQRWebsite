@@ -3,24 +3,24 @@ import React, { useState, useEffect } from 'react';
 const Hero = () => {
     const content = [
         {
-            heading: "Lessons and Insights",
-            subheading: "From 8 years",
-            description: "Where to grow your business as a photographer, social media expert, or site owner.",
-            img: "public/Illustration.png",
+            heading: "Revolutionize Attendance Tracking",
+            subheading: "With Cutting-Edge Technology",
+            description: "Learn how our system combines biometric verification, GPS tracking, and blockchain for secure and accurate attendance management.",
+            img: '/Illustration.png'
         },
         {
-            heading: "SEO and Social Media",
-            subheading: "are your best friends",
-            description: "Learn how to use them to your advantage.",
-            img: "public/Illustration.png",
+            heading: "Seamless Online & Offline",
+            subheading: "Attendance Solutions",
+            description: "Discover how our technology ensures reliable attendance recording even in low connectivity environments.",
+            img: '/Illustration2.png'
         },
         {
-            heading: "Get Started",
-            subheading: "with our course",
-            description: "Learn how to grow your business from scratch.",
-            img: "public/Illustration.png",
+            heading: "Start Using Our System",
+            subheading: "Today and Transform Operations",
+            description: "Get started with our solution to enhance security, accuracy, and efficiency in attendance management.",
+            img: '/Illustration3.png'
         },
-    ];
+    ];    
 
     const [currentSlide, setCurrentSlide] = useState(0);
     const [animating, setAnimating] = useState(false);
@@ -31,7 +31,7 @@ const Hero = () => {
             setTimeout(() => {
                 setCurrentSlide((prevSlide) => (prevSlide + 1) % content.length);
                 setAnimating(false);
-            }, 300); // Animation duration
+            }, 300);
         }, 3500);
 
         return () => clearInterval(interval);
@@ -42,7 +42,7 @@ const Hero = () => {
         setTimeout(() => {
             setCurrentSlide(index);
             setAnimating(false);
-        }, 300); // Animation duration
+        }, 300);
     };
 
     return (

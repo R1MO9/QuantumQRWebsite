@@ -1,0 +1,18 @@
+.testimonials-container {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.animate-scroll {
+    animation: scroll 5s linear infinite;
+}
+
+.testimonials-container:hover {
+    animation-play-state: paused; /* Pauses the animation on hover */
+}
