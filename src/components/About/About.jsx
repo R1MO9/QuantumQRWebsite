@@ -6,7 +6,7 @@ const About = () => {
     <section className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20" id="about">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">About Our System</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-10">About Our System</h2>
           <p className="text-lg max-w-3xl mx-auto">
             We are excited to present our innovative attendance tracking system, designed to meet the needs of modern work environments. Our solution integrates cutting-edge technologies to offer a secure and efficient way of managing attendance across diverse settings.
           </p>

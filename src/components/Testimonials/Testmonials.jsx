@@ -27,7 +27,7 @@ const Testimonials = () => {
     return (
         <section className="bg-gray-100 py-20">
             <div className="container mx-auto px-4">
-                <h2 className="text-3xl font-bold text-center mb-10 text-black">What Our Clients Say</h2>
+                <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-10 text-gray-900">What Our Clients Say</h2>
                 <div className="relative overflow-hidden">
                     <div className="testimonials-container flex space-x-6">
                         {[...testimonials, ...testimonials].map((testimonial, index) => (

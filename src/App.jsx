@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Testimonials from './components/Testimonials/Testmonials'
 import Service from './components/Service/Service'
+import DownloadLink from './components/DownloadLink/DownloadLink'
 
 const App = () => {
     return (
@@ -31,6 +32,11 @@ const App = () => {
             <section>
                 <Pricing />
             </section>
+
+            <section>
+                <DownloadLink />
+            </section>
+
 
             <section>
                 <Contact />
