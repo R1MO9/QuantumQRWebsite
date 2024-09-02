@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <a href="/" className="flex gap-4 items-center">
-                            <img src="/mstile-144x144.png" alt="GeoTrackr" className="w-10 h-10" />
+                            <img src="/logo.png" alt="GeoTrackr" className="w-10 h-10" />
                             <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">GeoTrackr</span>
                         </a>
 

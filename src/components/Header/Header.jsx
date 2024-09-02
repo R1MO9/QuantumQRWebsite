@@ -34,7 +34,7 @@ const Header = () => {
             <div className='container mx-auto flex justify-between items-center'>
                 <div className='flex items-center p-2 m-2 rounded-lg'>
                     <a href="/" className="flex gap-4 items-center">
-                        <img src="/mstile-144x144.png" alt="GeoTrackr" className="w-10 h-10" />
+                        <img src="/logo.png" alt="GeoTrackr" className="w-10 h-10" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap">GeoTrackr</span>
                     </a>
                 </div>
